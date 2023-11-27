@@ -151,11 +151,11 @@ You can search for packages on the [official NixOS website](https://search.nixos
 
 **Review these files**
 
-* `darwin/casks`
-* `darwin/packages`
-* `darwin/home-manager`
-* `nixos/packages`
-* `shared/packages`
+* `darwin/casks.nix`
+* `darwin/package.nixs`
+* `darwin/home-manager.nix`
+* `nixos/packages.nix`
+* `shared/packages.nix`
 
 ### 6. Optional: Setup secrets
 If you are using the starter with secrets, there are a few additional steps.
