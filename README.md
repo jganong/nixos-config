@@ -143,6 +143,7 @@ mkdir -p nixos-config && (cd nixos-config && nix flake --extra-experimental-feat
 ### 4. Apply your current user info
 Run this script to replace stub values with your username, full name, and email.
 ```sh
+cd nixos-config
 chmod +x bin/apply && bin/apply
 ```
 
